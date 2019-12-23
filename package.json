@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickychhoukdean/advanced-css-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickychhoukdean/advanced-css-practice/issues"
+  },
+  "homepage": "https://github.com/rickychhoukdean/advanced-css-practice#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
